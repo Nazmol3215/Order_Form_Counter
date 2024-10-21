@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+
+
+  <div class="order-container">
+    <div class="product-summary">
+        <h3>Lumbar Support Pillow × <span id="item-count">3</span></h3>
+        <div class="quantity">
+            <button class="quantity-btn">-</button>
+            <input type="text" value="3" class="quantity-input" id="quantity">
+            <button class="quantity-btn">+</button>
+        </div>
+        <p class="price">৳ <span id="product-price">2997.00</span></p>
+    </div>
+  
+    <div class="billing-details">
+        <h3>Billing details</h3>
+        <form>
+            <label>আপনার নাম লিখুন *</label>
+            <input type="text" placeholder="আপনার নাম" required>
+  
+            <label>মোবাইল নাম্বার লিখুন *</label>
+            <input type="text" placeholder="মোবাইল নাম্বার" required>
+  
+            <label>আপনার ঠিকানা লিখুন *</label>
+            <input type="text" placeholder="বাসা নং, রোড নং, থানা, জেলা" required>
+  
+            <label>আপনার ঠিকানা লিখুন *</label>
+            <input type="text" placeholder="বাসা নং, রোড নং, থানা, জেলা" required>
+  
+            <button type="submit">Place Order ৳ <span id="total-price">2997.00</span></button>
+        </form>
+    </div>
+  
+    <div class="order-summary">
+        <h3>Your order</h3>
+        <p>Product: Lumbar Support Pillow × <span id="summary-item-count">3</span></p>
+        <p>Subtotal: ৳ <span id="subtotal">2997.00</span></p>
+        <p>Shipping: <strong>ডেলিভারি চার্জ ফ্রি</strong></p>
+        <p>Total: ৳ <span id="summary-total">2997.00</span></p>
+        <p>Cash on delivery: Pay with cash upon delivery</p>
+    </div>
+  </div>
+  
+  
+  
+<script src="app.js"></script>
+</body>
+</html>
